@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#4a4a4a"
+    android:id="@+id/theme_preview"
+    tools:context="badoystudio.com.buatwalpaper.ThemeActivity">
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="172dp"
+            android:layout_height="69dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/btn_set"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="173dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/btn_batal"
+            android:padding="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
